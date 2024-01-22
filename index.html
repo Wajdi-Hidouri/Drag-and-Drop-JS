@@ -17,15 +17,13 @@
             <h1>Backlog</h1>
           </span>
           <!-- backlog content -->
-          <div id="backlog-content" class="custom-scroll">
-            <ul class="drag-item-list" id="backlog-list">
-              <li class="drag-item">testing</li>
-              <li class="drag-item">testing</li>
-              <li class="drag-item">testing</li>
+          <div id="backlog-content" class="custom-scroll" >
+            <ul class="drag-item-list" id="backlog-list" ondragenter="dragEnter(0)" ondrop="drop(event)" ondragover="allowDrop(event)">
+            
             </ul>
           </div>
-          <!-- add button group -->
-          <div class="add-btn-group">
+          <!-- Add button group -->
+          <div class="add-bn-group">
             <div class="add-btn">
               <span class="plus-sign">+</span>
               <span>Add Item</span>
@@ -38,52 +36,44 @@
             </div>
           </div>
         </li>
-
-
-          <!-- progress column -->
-          <li class="drag-column progress-column">
-            <span class="header">
-              <h1>Progress</h1>
-            </span>
-            <!-- progress content -->
-            <div id="progress-content" class="custom-scroll">
-              <ul class="drag-item-list" id="progress-list">
-                <li class="drag-item">testing</li>
-                <li class="drag-item">testing</li>
-                <li class="drag-item">testing</li>
-              </ul>
+        <!-- progress column -->
+        <li class="drag-column progress-column">
+          <span class="header">
+            <h1>Progress</h1>
+          </span>
+          <!-- progress content -->
+          <div id="progress-content" class="custom-scroll">
+            <ul class="drag-item-list" id="progress-list" ondragenter="dragEnter(1)" ondrop="drop(event)" ondragover="allowDrop(event)">
+              
+            </ul>
+          </div>
+          <!-- Add button group -->
+          <div class="add-bn-group">
+            <div class="add-btn">
+              <span class="plus-sign">+</span>
+              <span>Add Item</span>
             </div>
-            <!-- add button group -->
-            <div class="add-btn-group">
-              <div class="add-btn">
-                <span class="plus-sign">+</span>
-                <span>Add Item</span>
-              </div>
-              <div class="add-btn solid">
-                <span>Save Item</span>
-              </div>
-              <div class="add-container">
-                <div class="add-item"></div>
-              </div>
+            <div class="add-btn solid">
+              <span>Save Item</span>
             </div>
-          </li>
-
-
-            <!-- on-hold column -->
+            <div class="add-container">
+              <div class="add-item"></div>
+            </div>
+          </div>
+        </li>
+        <!-- on-hold column -->
         <li class="drag-column on-hold-column">
           <span class="header">
             <h1>On-hold</h1>
           </span>
           <!-- on-hold content -->
           <div id="on-hold-content" class="custom-scroll">
-            <ul class="drag-item-list" id="on-hold-list">
-              <li class="drag-item">testing</li>
-              <li class="drag-item">testing</li>
-              <li class="drag-item">testing</li>
+            <ul class="drag-item-list" id="on-hold-list" ondragenter="dragEnter(2)" ondrop="drop(event)" ondragover="allowDrop(event)">
+              
             </ul>
           </div>
-          <!-- add button group -->
-          <div class="add-btn-group">
+          <!-- Add button group -->
+          <div class="add-bn-group">
             <div class="add-btn">
               <span class="plus-sign">+</span>
               <span>Add Item</span>
@@ -96,40 +86,31 @@
             </div>
           </div>
         </li>
-
-
-          <!-- complete column -->
-          <li class="drag-column complete-column">
-            <span class="header">
-              <h1>Complete</h1>
-            </span>
-            <!-- complete content -->
-            <div id="complete-content" class="custom-scroll">
-              <ul class="drag-item-list" id="complete-list">
-                <li class="drag-item">testing</li>
-                <li class="drag-item">testing</li>
-                <li class="drag-item">testing</li>
-                <li class="drag-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae odio voluptates voluptatum consequuntur dolore. Architecto, hic? Quisquam tempora iusto omnis distinctio, totam optio soluta dolorum praesentium, sint nemo saepe eos?
-                Minima voluptates vel, quaerat laborum ut optio iusto molestias ducimus pariatur, nostrum nobis. Tenetur recusandae voluptate, fugit facere autem, dolor soluta doloremque sequi accusamus qui laborum nulla, possimus sed ullam.
-                Recusandae obcaecati rerum saepe ut soluta aliquam asperiores animi, pariatur, quasi quidem numquam qui deserunt facilis illo sed eveniet! Quae dicta obcaecati non dolores nemo sint temporibus, numquam commodi tempora.
-                Praesentium repudiandae recusandae perspiciatis officia numquam deleniti nam corporis, molestiae voluptate iure reiciendis suscipit. Enim asperiores velit nesciunt consequatur provident quae, fugiat eligendi consequuntur, doloribus, reiciendis tenetur dolorem facilis eveniet!</li>
-              </ul>
+        <!-- complete column -->
+        <li class="drag-column complete-column">
+          <span class="header">
+            <h1>Complete</h1>
+          </span>
+          <!-- complete content -->
+          <div id="complete-content" class="custom-scroll">
+            <ul class="drag-item-list" id="complete-list" ondragenter="dragEnter(3)" ondrop="drop(event)" ondragover="allowDrop(event)">
+              
+            </ul>
+          </div>
+          <!-- Add button group -->
+          <div class="add-bn-group">
+            <div class="add-btn">
+              <span class="plus-sign">+</span>
+              <span>Add Item</span>
             </div>
-            <!-- add button group -->
-            <div class="add-btn-group">
-              <div class="add-btn">
-                <span class="plus-sign">+</span>
-                <span>Add Item</span>
-              </div>
-              <div class="add-btn solid">
-                <span>Save Item</span>
-              </div>
-              <div class="add-container">
-                <div class="add-item"></div>
-              </div>
+            <div class="add-btn solid">
+              <span>Save Item</span>
             </div>
-          </li>
-        
+            <div class="add-container">
+              <div class="add-item"></div>
+            </div>
+          </div>
+        </li>
       </ul>
     </div>
     <!-- Script -->
